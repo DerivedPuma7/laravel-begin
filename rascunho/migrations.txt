@@ -1,0 +1,6 @@
+create migration
+    ##### php artisan make:migration migration_name --create=table_name
+    php artisan make:migration create_table_products --create=products
+
+run migration
+    php artisan migrate

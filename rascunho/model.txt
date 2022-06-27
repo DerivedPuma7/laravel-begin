@@ -1,0 +1,3 @@
+create model (entidade)
+    php artisan make:model model_name
+    php artisan make:model Product

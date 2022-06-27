@@ -1,0 +1,7 @@
+create controller
+    php artisan make:controller controller_name
+    php artisan make:controller Api/ProductController
+
+controller como recurso
+    php artisan make:controller Api/UserController --resource --api
+        a flag --api faz ignorar o metodo de exibir o formulario de criação e de edição

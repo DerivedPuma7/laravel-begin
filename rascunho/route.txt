@@ -1,0 +1,2 @@
+listar as rotas
+    php artisan route:list
